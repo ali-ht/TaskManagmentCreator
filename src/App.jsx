@@ -1,10 +1,8 @@
+import CreatorPage from './component/CreatorPage'
 
 function App() {
-
   return (
-    <>
-      <h1>salam</h1>
-    </>
+    <CreatorPage />
   )
 }
 
