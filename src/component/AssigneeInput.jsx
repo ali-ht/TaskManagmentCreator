@@ -39,7 +39,6 @@ function AssigneeInput() {
 
   const handleFocus = () => {setHideLabel(true)};
   
-
   const handleBlur = (event) => {
     if (selectedOptions.length === 0) { setHideLabel(false) } };
 
