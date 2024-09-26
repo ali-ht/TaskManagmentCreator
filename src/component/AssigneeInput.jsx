@@ -42,6 +42,7 @@ function AssigneeInput() {
   const handleBlur = (event) => {
     if (selectedOptions.length === 0) { setHideLabel(false) } };
 
+
 return (
   <Autocomplete
     sx={{ width: '500px', padding: '100%', dir: 'rtl',  }}
